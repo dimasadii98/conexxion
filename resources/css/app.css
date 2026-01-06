@@ -4,3 +4,11 @@
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
+
+#navbar {
+    max-height: 72px;
+}
+
+#navbar.nav-open {
+    max-height: 500px;
+}
