@@ -10,7 +10,7 @@
                     <!-- Desktop Navigation -->
                     <div class="hidden md:flex space-x-8">
                         <a href="{{ route('home') }}" class="hover:text-amber-500 font-medium">Home</a>
-                        <a href="#" class="hover:text-amber-500 font-medium">Shop</a>
+                        <a href="#" class="hover:text-amber-500 font-medium">Produtcs</a>
                         <a href="#" class="hover:text-amber-500 font-medium">Blog</a>
                         <a href="#" class="hover:text-amber-500 font-medium">About us</a>
                         <a href="#" class="hover:text-amber-500 font-medium">Contact us</a>
@@ -31,7 +31,7 @@
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden px-4 py-3 space-y-4 ml-4 origin-top transform scale-y-0 opacity-0 transition-all duration-300 ease-out">
                 <a href="{{ route('home') }}" class="block">Home</a>
-                <a href="#" class="block">Shop</a>
+                <a href="#" class="block">Products</a>
                 <a href="#" class="block">Blog</a>
                 <a href="#" class="block">About us</a>
                 <a href="#" class="block">Contact us</a>
