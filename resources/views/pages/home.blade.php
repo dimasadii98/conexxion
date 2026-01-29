@@ -5,14 +5,14 @@
 <!-- Hero Section -->
 <section
     class="relative bg-cover bg-center"
-    style="background-image: url('/img/backgroundHero.png');">
+    style="background-image: url('/img/backgroundHero.jpg');">
     <!-- Overlay -->
 
     <div class="relative max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
         <!-- Hero Image -->
         <div class="relative order-1 md:order-2">
-            <img src="/img/small-hero.png"
+            <img src="/img/small-hero.jpg"
                 alt="Dapur Komersial Conexxion"
                 class="relative rounded-2xl shadow-2xl w-full object-cover">
         </div>
@@ -47,6 +47,240 @@
                 </a>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- PRODUCT CATEGORY SECTION -->
+<section class="bg-gray-50 py-24">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- SECTION HEADER -->
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+                Kategori Produk
+            </h2>
+            <p class="text-gray-600 text-lg">
+                Kami memproduksi berbagai peralatan dapur komersial berbahan stainless
+                untuk memenuhi kebutuhan industri, instansi, dan usaha profesional.
+            </p>
+        </div>
+
+        <!-- Product Category -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <a href="{{ route('products') }}"
+            class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition overflow-hidden">
+
+                <div class="h-48 overflow-hidden">
+                    <img src="/img/kitchen-equipment.jpg"
+                        alt="Kitchen Equipment"
+                        class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        Kitchen Equipment
+                    </h3>
+                    <p class="text-gray-600 text-sm">
+                        Peralatan dapur komersial untuk restoran, hotel, dan industri makanan.
+                    </p>
+                </div>
+            </a>
+
+            <a href="{{ route('products') }}"
+            class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition overflow-hidden">
+
+                <div class="h-48 overflow-hidden">
+                    <img src="/img/stainless-steel.jpg"
+                        alt="Custom Stainless"
+                        class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        Custom Stainless
+                    </h3>
+                    <p class="text-gray-600 text-sm">
+                        Produksi stainless custom sesuai desain dan kebutuhan klien.
+                    </p>
+                </div>
+            </a>
+
+            <a href="{{ route('products') }}"
+            class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition overflow-hidden">
+
+                <div class="h-48 overflow-hidden">
+                    <img src="/img/hospital-kitchen.jpg"
+                        alt="Hospital Kitchen"
+                        class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        Hospital Kitchen
+                    </h3>
+                    <p class="text-gray-600 text-sm">
+                        Solusi dapur rumah sakit sesuai standar kebersihan dan keamanan.
+                    </p>
+                </div>
+            </a>
+
+            <a href="{{ route('products') }}"
+            class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition overflow-hidden">
+
+                <div class="h-48 overflow-hidden">
+                    <img src="/img/dapur-mbg.jpg"
+                        alt="SPPG & MBG"
+                        class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        Dapur SPPG & MBG
+                    </h3>
+                    <p class="text-gray-600 text-sm">
+                        Sistem dapur terintegrasi untuk kebutuhan instansi dan pemerintah.
+                    </p>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Why Choose Conexxion -->
+<section class="bg-white py-24">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- Header -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+                <span class="inline-block mb-4 px-4 py-1 text-sm font-semibold text-orange-600 bg-orange-100 rounded-full">
+                    Keunggulan Kami
+                </span>
+
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">
+                    Mengapa Memilih Conexxion
+                </h2>
+
+                <p class="text-gray-600 text-lg">
+                    Kami bukan sekadar penjual, melainkan produsen langsung peralatan dapur
+                    komersial dengan proses produksi terkontrol, tenaga ahli berpengalaman,
+                    dan layanan purna jual yang jelas.
+                </p>
+            </div>
+
+            <!-- Image -->
+            <div class="relative">
+                <div class="absolute -top-8 -left-8 w-32 h-32 bg-orange-100 rounded-full blur-3xl"></div>
+                <img src="/img/produksi-conexxion.jpg"
+                    alt="Produksi Conexxion"
+                    class="relative rounded-2xl shadow-xl w-full object-cover">
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+            <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition">
+                <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-orange-100 text-orange-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 7h18M3 12h18M3 17h18"/>
+                    </svg>
+                </div>
+
+                <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    Produksi Langsung
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Seluruh produk diproduksi langsung di workshop kami tanpa perantara.
+                </p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition">
+                <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-orange-100 text-orange-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4M12 2a10 10 0 100 20 10 10 0 000-20z"/>
+                    </svg>
+                </div>
+
+                <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    Standar Industri
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Material stainless berkualitas dan pengerjaan sesuai standar dapur komersial.
+                </p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition">
+                <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-orange-100 text-orange-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8c-1.1 0-2 .9-2 2v6h4v-6c0-1.1-.9-2-2-2z"/>
+                    </svg>
+                </div>
+
+                <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    Custom Sesuai Kebutuhan
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Desain fleksibel mengikuti layout, kapasitas, dan kebutuhan klien.
+                </p>
+            </div>
+
+            <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-lg transition">
+                <div class="w-12 h-12 flex items-center justify-center rounded-xl bg-orange-100 text-orange-600 mb-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M12 18a9 9 0 100-18 9 9 0 000 18z"/>
+                    </svg>
+                </div>
+
+                <h3 class="text-lg font-bold text-gray-900 mb-2">
+                    After Sales Jelas
+                </h3>
+                <p class="text-gray-600 text-sm">
+                    Dukungan teknis, garansi, dan layanan purna jual berkelanjutan.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Client/Partner -->
+<section class="bg-gray-50 py-24">
+    <div class="max-w-7xl mx-auto px-6">
+
+    <!-- Header -->
+    <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="inline-block mb-4 px-4 py-1 text-sm font-semibold text-orange-600 bg-orange-100 rounded-full">
+            Klien & Mitra
+        </span>
+
+        <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+            Dipercaya Berbagai Instansi dan Usaha
+        </h2>
+
+        <p class="text-gray-600 text-lg">
+            Produk dan layanan Conexxion telah digunakan oleh berbagai instansi,
+            rumah sakit, dan pelaku usaha di berbagai sektor.
+        </p>
+    </div>
+
+    <!-- Logo/Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-10 items-center">
+        @foreach ($clients as $client)
+            <div class="flex items-center justify-center bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+                <img src="{{ asset($client['logo']) }}"
+                    alt="{{ $client['name'] }}"
+                    class="h-12 object-contain grayscale hover:grayscale-0 transition rounded-full">
+            </div>
+        @endforeach
+    </div>
 
     </div>
 </section>

@@ -8,9 +8,16 @@ class PageController extends Controller
 {
     public function home()
     {
-        return view('pages.home', [
-            'title' => 'Home'
-        ]);
+        $clients = [
+            ['logo' => 'img/profile-1.png', 'name' => 'Clients 1'],
+            ['logo' => 'img/profile-1.png', 'name' => 'Clients 2'],
+            ['logo' => 'img/profile-1.png', 'name' => 'Clients 3'],
+            ['logo' => 'img/profile-1.png', 'name' => 'Clients 4'],
+            ['logo' => 'img/profile-1.png', 'name' => 'Clients 5'],
+            ['logo' => 'img/profile-1.png', 'name' => 'Clients 6'],
+        ];
+
+        return view('pages.home', compact('clients') + ['title' => 'Home']);
     }
 
     public function about()
