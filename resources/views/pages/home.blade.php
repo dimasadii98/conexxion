@@ -285,4 +285,48 @@
     </div>
 </section>
 
+<!-- CTA Section -->
+<section class="relative bg-slate-900 py-24 overflow-hidden">
+
+    <div class="absolute inset-0">
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-orange-500/20 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-32 -right-32 w-96 h-96 bg-orange-500/10 rounded-3xl blur-3xl"></div>
+    </div>
+
+    <div class="relative max-w-7xl mx-auto px-6 text-center">
+
+        <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-6">
+            Konsultasikan Kebutuhan Dapur Anda
+        </h2>
+
+        <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-10">
+            Tim Conexxion siap membantu perencanaan, desain, dan produksi
+            peralatan dapur komersial sesuai kebutuhan usaha, instansi,
+            rumah sakit, dapur SPPG, dan dapur MBG.
+        </p>
+
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+
+            <a href="https://wa.me/6282225398838"
+                target="_blank"
+                class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-orange-600 text-white font-semibold rounded-xl hover:bg-orange-700 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.52 3.48A11.91 11.91 0 0012.06 0C5.44 0 .06 5.38.06 12c0 2.11.55 4.18 1.59 6.01L0 24l6.15-1.61a11.9 11.9 0 005.91 1.51h.01c6.62 0 12-5.38 12-12a11.9 11.9 0 00-3.46-8.42z"/>
+                </svg>
+                Konsultan WhatsApp
+            </a>
+
+            <!-- CONTACT PAGE -->
+            <a href="{{ route('contact') }}"
+            class="inline-flex items-center justify-center px-8 py-4 border border-gray-400 text-white font-semibold rounded-xl
+            hover:bg-gray-100 hover:text-black transition-colors duration-300">
+                Hubungi Kami
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
 @endsection

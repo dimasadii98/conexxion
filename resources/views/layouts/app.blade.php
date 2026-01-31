@@ -13,6 +13,8 @@
     </header>
     <!-- Navbar End -->
     @yield('container')
+    <!-- Footer -->
+        @include('partials.footer')
 </body>
 <script>
     const btn = document.getElementById('menu-btn');
