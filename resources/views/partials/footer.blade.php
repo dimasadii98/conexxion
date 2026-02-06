@@ -47,19 +47,87 @@
                     Kontak Kami
                 </h4>
 
-                <ul class="space-y-3">
-                    <li>📍 Jl. Industri No.123, Indonesia</li>
-                    <li>📞 +62 812 3456 7890</li>
-                    <li>✉️ info@conexxion.co.id</li>
+                <ul class="space-y-3 text-gray-400">
+                    <li class="flex items-start gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            class="w-5 h-5 text-orange-500 mt-1 shrink-0" 
+                            fill="none" 
+                            viewBox="0 0 24 24" 
+                            stroke="currentColor" 
+                            stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 21s-7-5.686-7-10a7 7 0 1114 0c0 4.314-7 10-7 10z"/>
+                            <circle cx="12" cy="11" r="3"/>
+                        </svg>
+                        <span class="leading-relaxed">
+                            Jl. Karang Bajang, Tlogoadi District, Mlati, Sleman Regency,
+                            Yogyakarta Special Region 55286.
+                        </span>
+                    </li>
+
+                    <li class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            class="w-5 h-5 text-orange-500" 
+                            fill="none" 
+                            viewBox="0 0 24 24" 
+                            stroke="currentColor" 
+                            stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M22 16.92V19a2 2 0 01-2.18 2A19.86 19.86 0 013 5.18 
+                                2 2 0 015 3h2.09a2 2 0 012 1.72c.12.9.32 1.77.59 
+                                2.61a2 2 0 01-.45 2.11L8.09 10.91a16 16 0 
+                                006 6l1.47-1.14a2 2 0 012.11-.45c.84.27 
+                                1.71.47 2.61.59A2 2 0 0122 16.92z"/>
+                        </svg>
+                        <span>+62 823-2229-5727</span>
+                    </li>
+
+                    <li class="flex items-center gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                            class="w-5 h-5 text-orange-500" 
+                            fill="none" 
+                            viewBox="0 0 24 24" 
+                            stroke="currentColor" 
+                            stroke-width="2">
+
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                            <path d="m16 11.37-.88-.88"/>
+                            <circle cx="12" cy="12" r="4"/>
+                            <circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/>
+                        </svg>
+
+                        <a href="https://instagram.com/conexxion.id" 
+                        target="_blank"
+                        class="hover:text-white transition">
+                            @conexxion.id
+                        </a>
+                    </li>
 
                     <li>
-                        <a href="https://wa.me/6281234567890"
-                            target="_blank"
-                            class="inline-block mt-2 px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition">
+                        <a href="https://wa.me/6282322295727"
+                        target="_blank"
+                        class="inline-flex items-center gap-2 mt-2 px-4 py-2 
+                                bg-orange-600 text-white rounded-lg 
+                                hover:bg-orange-700 transition">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                class="w-5 h-5" 
+                                fill="none" 
+                                viewBox="0 0 24 24" 
+                                stroke="currentColor" 
+                                stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M21 11.5a8.38 8.38 0 01-1.9 5.4 
+                                    8.5 8.5 0 11-3.6-13.9 
+                                    8.38 8.38 0 015.4 8.5z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M8 12h.01M12 12h.01M16 12h.01"/>
+                            </svg>
                             WhatsApp Kami
                         </a>
                     </li>
                 </ul>
+
             </div>
 
         </div>
